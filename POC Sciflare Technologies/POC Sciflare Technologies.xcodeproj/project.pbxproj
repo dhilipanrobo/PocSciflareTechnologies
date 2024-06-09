@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180957A22C140BA50013FFEF /* POC_Sciflare_TechnologiesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180957A12C140BA50013FFEF /* POC_Sciflare_TechnologiesApp.swift */; };
+		180957A62C140BA70013FFEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180957A52C140BA70013FFEF /* Assets.xcassets */; };
+		180957A92C140BA70013FFEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180957A82C140BA70013FFEF /* Preview Assets.xcassets */; };
+		180957AB2C140BA70013FFEF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180957AA2C140BA70013FFEF /* Persistence.swift */; };
+		180957AE2C140BA70013FFEF /* POC_Sciflare_Technologies.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 180957AC2C140BA70013FFEF /* POC_Sciflare_Technologies.xcdatamodeld */; };
+		180957B82C140BA70013FFEF /* POC_Sciflare_TechnologiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180957B72C140BA70013FFEF /* POC_Sciflare_TechnologiesTests.swift */; };
+		180957C22C140BA70013FFEF /* POC_Sciflare_TechnologiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180957C12C140BA70013FFEF /* POC_Sciflare_TechnologiesUITests.swift */; };
+		180957C42C140BA70013FFEF /* POC_Sciflare_TechnologiesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180957C32C140BA70013FFEF /* POC_Sciflare_TechnologiesUITestsLaunchTests.swift */; };
+		180957D72C140CAF0013FFEF /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180957D62C140CAF0013FFEF /* RootView.swift */; };
+		180957D92C140CD40013FFEF /* AddUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180957D82C140CD40013FFEF /* AddUserView.swift */; };
+		180957DB2C140CE40013FFEF /* ListUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180957DA2C140CE40013FFEF /* ListUserView.swift */; };
+		180957DD2C1427350013FFEF /* Add User Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180957DC2C1427350013FFEF /* Add User Controller.swift */; };
+		180957DF2C1427840013FFEF /* Network Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180957DE2C1427840013FFEF /* Network Manager.swift */; };
+		1872C82F2C1447DF0026183C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1872C82E2C1447DF0026183C /* Alamofire */; };
+		1872C8312C145D8F0026183C /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872C8302C145D8F0026183C /* CoreDataManager.swift */; };
+		1872C8332C14626C0026183C /* User list model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872C8322C14626C0026183C /* User list model.swift */; };
+		1872C8352C1481CF0026183C /* List User Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872C8342C1481CF0026183C /* List User Controller.swift */; };
+		1872C8372C1494840026183C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872C8362C1494840026183C /* CardView.swift */; };
+		1872C8392C14B4A70026183C /* Edit User View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872C8382C14B4A70026183C /* Edit User View.swift */; };
+		1872C83B2C14B4BE0026183C /* Edit User Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872C83A2C14B4BE0026183C /* Edit User Controller.swift */; };
+		1872C83D2C1544630026183C /* EndPointManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872C83C2C1544630026183C /* EndPointManager.swift */; };
+		1872C8402C1572E30026183C /* Location View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872C83F2C1572E30026183C /* Location View.swift */; };
+		1872C8422C1574F00026183C /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872C8412C1574F00026183C /* LocationManager.swift */; };
+		1872C8462C15901A0026183C /* Validate Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872C8452C15901A0026183C /* Validate Manager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		180957B42C140BA70013FFEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180957962C140BA50013FFEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1809579D2C140BA50013FFEF;
+			remoteInfo = "POC Sciflare Technologies";
+		};
+		180957BE2C140BA70013FFEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180957962C140BA50013FFEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1809579D2C140BA50013FFEF;
+			remoteInfo = "POC Sciflare Technologies";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1809579E2C140BA50013FFEF /* POC Sciflare Technologies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "POC Sciflare Technologies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		180957A12C140BA50013FFEF /* POC_Sciflare_TechnologiesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POC_Sciflare_TechnologiesApp.swift; sourceTree = "<group>"; };
+		180957A52C140BA70013FFEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		180957A82C140BA70013FFEF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		180957AA2C140BA70013FFEF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		180957AD2C140BA70013FFEF /* POC_Sciflare_Technologies.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = POC_Sciflare_Technologies.xcdatamodel; sourceTree = "<group>"; };
+		180957B32C140BA70013FFEF /* POC Sciflare TechnologiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "POC Sciflare TechnologiesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		180957B72C140BA70013FFEF /* POC_Sciflare_TechnologiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POC_Sciflare_TechnologiesTests.swift; sourceTree = "<group>"; };
+		180957BD2C140BA70013FFEF /* POC Sciflare TechnologiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "POC Sciflare TechnologiesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		180957C12C140BA70013FFEF /* POC_Sciflare_TechnologiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POC_Sciflare_TechnologiesUITests.swift; sourceTree = "<group>"; };
+		180957C32C140BA70013FFEF /* POC_Sciflare_TechnologiesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POC_Sciflare_TechnologiesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		180957D62C140CAF0013FFEF /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		180957D82C140CD40013FFEF /* AddUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserView.swift; sourceTree = "<group>"; };
+		180957DA2C140CE40013FFEF /* ListUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUserView.swift; sourceTree = "<group>"; };
+		180957DC2C1427350013FFEF /* Add User Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Add User Controller.swift"; sourceTree = "<group>"; };
+		180957DE2C1427840013FFEF /* Network Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network Manager.swift"; sourceTree = "<group>"; };
+		1872C8302C145D8F0026183C /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		1872C8322C14626C0026183C /* User list model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User list model.swift"; sourceTree = "<group>"; };
+		1872C8342C1481CF0026183C /* List User Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List User Controller.swift"; sourceTree = "<group>"; };
+		1872C8362C1494840026183C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		1872C8382C14B4A70026183C /* Edit User View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Edit User View.swift"; sourceTree = "<group>"; };
+		1872C83A2C14B4BE0026183C /* Edit User Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Edit User Controller.swift"; sourceTree = "<group>"; };
+		1872C83C2C1544630026183C /* EndPointManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointManager.swift; sourceTree = "<group>"; };
+		1872C83E2C1572930026183C /* POC-Sciflare-Technologies-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "POC-Sciflare-Technologies-Info.plist"; sourceTree = SOURCE_ROOT; };
+		1872C83F2C1572E30026183C /* Location View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location View.swift"; sourceTree = "<group>"; };
+		1872C8412C1574F00026183C /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		1872C8452C15901A0026183C /* Validate Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Validate Manager.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1809579B2C140BA50013FFEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1872C82F2C1447DF0026183C /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180957B02C140BA70013FFEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180957BA2C140BA70013FFEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180957952C140BA50013FFEF = {
+			isa = PBXGroup;
+			children = (
+				180957A02C140BA50013FFEF /* POC Sciflare Technologies */,
+				180957B62C140BA70013FFEF /* POC Sciflare TechnologiesTests */,
+				180957C02C140BA70013FFEF /* POC Sciflare TechnologiesUITests */,
+				1809579F2C140BA50013FFEF /* Products */,
+				1872C82D2C1447DF0026183C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1809579F2C140BA50013FFEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1809579E2C140BA50013FFEF /* POC Sciflare Technologies.app */,
+				180957B32C140BA70013FFEF /* POC Sciflare TechnologiesTests.xctest */,
+				180957BD2C140BA70013FFEF /* POC Sciflare TechnologiesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		180957A02C140BA50013FFEF /* POC Sciflare Technologies */ = {
+			isa = PBXGroup;
+			children = (
+				1872C83E2C1572930026183C /* POC-Sciflare-Technologies-Info.plist */,
+				180957D32C140C350013FFEF /* HelperFile */,
+				180957D22C140C290013FFEF /* Model */,
+				180957D12C140C1C0013FFEF /* ViewModel */,
+				180957D02C140C0D0013FFEF /* View */,
+				180957A12C140BA50013FFEF /* POC_Sciflare_TechnologiesApp.swift */,
+				180957A52C140BA70013FFEF /* Assets.xcassets */,
+				180957AA2C140BA70013FFEF /* Persistence.swift */,
+				180957AC2C140BA70013FFEF /* POC_Sciflare_Technologies.xcdatamodeld */,
+				180957A72C140BA70013FFEF /* Preview Content */,
+			);
+			path = "POC Sciflare Technologies";
+			sourceTree = "<group>";
+		};
+		180957A72C140BA70013FFEF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				180957A82C140BA70013FFEF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		180957B62C140BA70013FFEF /* POC Sciflare TechnologiesTests */ = {
+			isa = PBXGroup;
+			children = (
+				180957B72C140BA70013FFEF /* POC_Sciflare_TechnologiesTests.swift */,
+			);
+			path = "POC Sciflare TechnologiesTests";
+			sourceTree = "<group>";
+		};
+		180957C02C140BA70013FFEF /* POC Sciflare TechnologiesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				180957C12C140BA70013FFEF /* POC_Sciflare_TechnologiesUITests.swift */,
+				180957C32C140BA70013FFEF /* POC_Sciflare_TechnologiesUITestsLaunchTests.swift */,
+			);
+			path = "POC Sciflare TechnologiesUITests";
+			sourceTree = "<group>";
+		};
+		180957D02C140C0D0013FFEF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				180957D62C140CAF0013FFEF /* RootView.swift */,
+				180957D82C140CD40013FFEF /* AddUserView.swift */,
+				180957DA2C140CE40013FFEF /* ListUserView.swift */,
+				1872C8362C1494840026183C /* CardView.swift */,
+				1872C8382C14B4A70026183C /* Edit User View.swift */,
+				1872C83F2C1572E30026183C /* Location View.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		180957D12C140C1C0013FFEF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				180957DC2C1427350013FFEF /* Add User Controller.swift */,
+				1872C8342C1481CF0026183C /* List User Controller.swift */,
+				1872C83A2C14B4BE0026183C /* Edit User Controller.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		180957D22C140C290013FFEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1872C8322C14626C0026183C /* User list model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		180957D32C140C350013FFEF /* HelperFile */ = {
+			isa = PBXGroup;
+			children = (
+				180957DE2C1427840013FFEF /* Network Manager.swift */,
+				1872C8302C145D8F0026183C /* CoreDataManager.swift */,
+				1872C83C2C1544630026183C /* EndPointManager.swift */,
+				1872C8412C1574F00026183C /* LocationManager.swift */,
+				1872C8452C15901A0026183C /* Validate Manager.swift */,
+			);
+			path = HelperFile;
+			sourceTree = "<group>";
+		};
+		1872C82D2C1447DF0026183C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1809579D2C140BA50013FFEF /* POC Sciflare Technologies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180957C72C140BA70013FFEF /* Build configuration list for PBXNativeTarget "POC Sciflare Technologies" */;
+			buildPhases = (
+				1809579A2C140BA50013FFEF /* Sources */,
+				1809579B2C140BA50013FFEF /* Frameworks */,
+				1809579C2C140BA50013FFEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "POC Sciflare Technologies";
+			packageProductDependencies = (
+				1872C82E2C1447DF0026183C /* Alamofire */,
+			);
+			productName = "POC Sciflare Technologies";
+			productReference = 1809579E2C140BA50013FFEF /* POC Sciflare Technologies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		180957B22C140BA70013FFEF /* POC Sciflare TechnologiesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180957CA2C140BA70013FFEF /* Build configuration list for PBXNativeTarget "POC Sciflare TechnologiesTests" */;
+			buildPhases = (
+				180957AF2C140BA70013FFEF /* Sources */,
+				180957B02C140BA70013FFEF /* Frameworks */,
+				180957B12C140BA70013FFEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180957B52C140BA70013FFEF /* PBXTargetDependency */,
+			);
+			name = "POC Sciflare TechnologiesTests";
+			productName = "POC Sciflare TechnologiesTests";
+			productReference = 180957B32C140BA70013FFEF /* POC Sciflare TechnologiesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		180957BC2C140BA70013FFEF /* POC Sciflare TechnologiesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180957CD2C140BA70013FFEF /* Build configuration list for PBXNativeTarget "POC Sciflare TechnologiesUITests" */;
+			buildPhases = (
+				180957B92C140BA70013FFEF /* Sources */,
+				180957BA2C140BA70013FFEF /* Frameworks */,
+				180957BB2C140BA70013FFEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180957BF2C140BA70013FFEF /* PBXTargetDependency */,
+			);
+			name = "POC Sciflare TechnologiesUITests";
+			productName = "POC Sciflare TechnologiesUITests";
+			productReference = 180957BD2C140BA70013FFEF /* POC Sciflare TechnologiesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180957962C140BA50013FFEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					1809579D2C140BA50013FFEF = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					180957B22C140BA70013FFEF = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 1809579D2C140BA50013FFEF;
+					};
+					180957BC2C140BA70013FFEF = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 1809579D2C140BA50013FFEF;
+					};
+				};
+			};
+			buildConfigurationList = 180957992C140BA50013FFEF /* Build configuration list for PBXProject "POC Sciflare Technologies" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 180957952C140BA50013FFEF;
+			packageReferences = (
+				180957E02C1427AD0013FFEF /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 1809579F2C140BA50013FFEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1809579D2C140BA50013FFEF /* POC Sciflare Technologies */,
+				180957B22C140BA70013FFEF /* POC Sciflare TechnologiesTests */,
+				180957BC2C140BA70013FFEF /* POC Sciflare TechnologiesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1809579C2C140BA50013FFEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180957A92C140BA70013FFEF /* Preview Assets.xcassets in Resources */,
+				180957A62C140BA70013FFEF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180957B12C140BA70013FFEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180957BB2C140BA70013FFEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1809579A2C140BA50013FFEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180957DD2C1427350013FFEF /* Add User Controller.swift in Sources */,
+				1872C8402C1572E30026183C /* Location View.swift in Sources */,
+				1872C8332C14626C0026183C /* User list model.swift in Sources */,
+				180957AB2C140BA70013FFEF /* Persistence.swift in Sources */,
+				1872C8392C14B4A70026183C /* Edit User View.swift in Sources */,
+				180957A22C140BA50013FFEF /* POC_Sciflare_TechnologiesApp.swift in Sources */,
+				180957AE2C140BA70013FFEF /* POC_Sciflare_Technologies.xcdatamodeld in Sources */,
+				1872C8422C1574F00026183C /* LocationManager.swift in Sources */,
+				1872C83B2C14B4BE0026183C /* Edit User Controller.swift in Sources */,
+				180957D72C140CAF0013FFEF /* RootView.swift in Sources */,
+				1872C8372C1494840026183C /* CardView.swift in Sources */,
+				180957D92C140CD40013FFEF /* AddUserView.swift in Sources */,
+				1872C8352C1481CF0026183C /* List User Controller.swift in Sources */,
+				1872C83D2C1544630026183C /* EndPointManager.swift in Sources */,
+				180957DB2C140CE40013FFEF /* ListUserView.swift in Sources */,
+				1872C8312C145D8F0026183C /* CoreDataManager.swift in Sources */,
+				1872C8462C15901A0026183C /* Validate Manager.swift in Sources */,
+				180957DF2C1427840013FFEF /* Network Manager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180957AF2C140BA70013FFEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180957B82C140BA70013FFEF /* POC_Sciflare_TechnologiesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180957B92C140BA70013FFEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180957C42C140BA70013FFEF /* POC_Sciflare_TechnologiesUITestsLaunchTests.swift in Sources */,
+				180957C22C140BA70013FFEF /* POC_Sciflare_TechnologiesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		180957B52C140BA70013FFEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1809579D2C140BA50013FFEF /* POC Sciflare Technologies */;
+			targetProxy = 180957B42C140BA70013FFEF /* PBXContainerItemProxy */;
+		};
+		180957BF2C140BA70013FFEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1809579D2C140BA50013FFEF /* POC Sciflare Technologies */;
+			targetProxy = 180957BE2C140BA70013FFEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		180957C52C140BA70013FFEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		180957C62C140BA70013FFEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		180957C82C140BA70013FFEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"POC Sciflare Technologies/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "POC-Sciflare-Technologies-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MarkdownUI.POC-Sciflare-Technologies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		180957C92C140BA70013FFEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"POC Sciflare Technologies/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "POC-Sciflare-Technologies-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MarkdownUI.POC-Sciflare-Technologies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		180957CB2C140BA70013FFEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MarkdownUI.POC-Sciflare-TechnologiesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POC Sciflare Technologies.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/POC Sciflare Technologies";
+			};
+			name = Debug;
+		};
+		180957CC2C140BA70013FFEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MarkdownUI.POC-Sciflare-TechnologiesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POC Sciflare Technologies.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/POC Sciflare Technologies";
+			};
+			name = Release;
+		};
+		180957CE2C140BA70013FFEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MarkdownUI.POC-Sciflare-TechnologiesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "POC Sciflare Technologies";
+			};
+			name = Debug;
+		};
+		180957CF2C140BA70013FFEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MarkdownUI.POC-Sciflare-TechnologiesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "POC Sciflare Technologies";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180957992C140BA50013FFEF /* Build configuration list for PBXProject "POC Sciflare Technologies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180957C52C140BA70013FFEF /* Debug */,
+				180957C62C140BA70013FFEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180957C72C140BA70013FFEF /* Build configuration list for PBXNativeTarget "POC Sciflare Technologies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180957C82C140BA70013FFEF /* Debug */,
+				180957C92C140BA70013FFEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180957CA2C140BA70013FFEF /* Build configuration list for PBXNativeTarget "POC Sciflare TechnologiesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180957CB2C140BA70013FFEF /* Debug */,
+				180957CC2C140BA70013FFEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180957CD2C140BA70013FFEF /* Build configuration list for PBXNativeTarget "POC Sciflare TechnologiesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180957CE2C140BA70013FFEF /* Debug */,
+				180957CF2C140BA70013FFEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		180957E02C1427AD0013FFEF /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1872C82E2C1447DF0026183C /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 180957E02C1427AD0013FFEF /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		180957AC2C140BA70013FFEF /* POC_Sciflare_Technologies.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				180957AD2C140BA70013FFEF /* POC_Sciflare_Technologies.xcdatamodel */,
+			);
+			currentVersion = 180957AD2C140BA70013FFEF /* POC_Sciflare_Technologies.xcdatamodel */;
+			path = POC_Sciflare_Technologies.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 180957962C140BA50013FFEF /* Project object */;
+}
